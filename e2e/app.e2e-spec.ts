@@ -1,10 +1,10 @@
-import { TopHereAndPage } from './app.po';
+import { SimplerPage } from './app.po';
 
-describe('top-here-and App', function() {
-  let page: TopHereAndPage;
+describe('simpler App', function() {
+  let page: SimplerPage;
 
   beforeEach(() => {
-    page = new TopHereAndPage();
+    page = new SimplerPage();
   });
 
   it('should display message saying app works', () => {
